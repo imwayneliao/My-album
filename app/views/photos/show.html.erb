@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="page-header">
+    <h1>每一張相片，都是你我最美的回憶。<small>偉恩與小庭</small></h1>
+  </div>
+  <div>
+    <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+      <%= image_tag @photo.file_location.url, class:"img-thumbnail"%>
+    </div>
+    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+      <table class="table table-striped table-hover">
+        <tr>
+          <td>名稱</td>
+          <td><%= @photo.title %></td>
+        </tr> 
+        <tr>
+          <td>日期</td>
+          <td><%= @photo.date %></td>
+        </tr> 
+        <tr>
+          <td>回憶</td>
+          <td><%= simple_format(@photo.description) %></td>
+        </tr>
+      </table>
+    </div>
+    <%= link_to 'Back to index', photos_path %>
+  </div>  
+</div>
