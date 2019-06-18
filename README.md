@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+網站：https://album-of-wayne-family.herokuapp.com
 
-Things you may want to cover:
+第一個rails app 練習
 
-* Ruby version
+練習內容：
+1）two models： User and Photo
+2）Create, Read, Update, Destroy
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
